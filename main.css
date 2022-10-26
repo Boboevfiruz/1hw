@@ -1,0 +1,100 @@
+.cont{
+    height: 100vh;
+    background-image: url(./images/hero-cover.jpg);
+    background-color: #00000080;
+}.navbar{
+    height: 80px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}.navlist ul{
+    display: flex;  
+    list-style: none;
+    
+}.navlist li{
+    margin-left: 35px;
+    
+
+}.leftnav{
+    padding-top: 10px;
+}a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}a:hover{
+    color: rgb(77, 77, 228);
+    /* font-size: 20px; */
+}.navbut{
+    padding-top: 15px;
+} button{
+    padding: 8px 20px;
+    color: white;
+    border-color: rgb(71, 119, 210);
+    background-color: rgb(71, 119, 210);
+    border-radius: 15px;
+}.first {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}form{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}input{
+    padding: 8px;
+    margin: 10px; 
+    border-radius: 3px;
+    border: 0.5px;
+    background-color: rgb(241, 238, 238);   
+}label{
+    margin: 10px;
+}.leftcont{
+    width: 59%;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    margin-left: 80px;
+}.center{
+    text-align: center;
+    margin: 85px;
+}.emhead{
+    border-bottom: 1px solid #000;
+    display: flex;
+    padding: 10px;  
+    border-radius: 10px;
+    background-color: lightblue;
+}.emhead h3{
+    padding-top: 5px;
+}.emergency a{
+    color: black;
+    margin: 5px;
+}.emergency{
+    border: 1px solid blue;
+    border-radius: 10px;
+   }.last{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+   }.emergency li{
+    list-style: none;
+    margin-top: 10px;
+   }.emergency a:hover{
+    color: blue;
+   }.footer{
+    padding-top: 100px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+   }.footer a{
+    color: #000;
+    margin: 20px 0px;
+    line-height: 25px;
+   }.footer a:hover{
+    color: blue;
+   }
